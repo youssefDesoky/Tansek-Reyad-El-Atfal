@@ -51,5 +51,3 @@
 كلية الحاسبات والذكاء الاصطناعي – قسم نظم المعلومات - جامعة القاهرة
 
 📅 **تاريخ الإصدار**: 1 يوليو 2025
-](https://raw.githubusercontent.com/youssefDesoky/Tansek-Reyad-El-Atfal/main/Kindergarten%20Students%20Distribution%20Setup.msi
-)
