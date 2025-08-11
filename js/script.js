@@ -6,6 +6,10 @@ window.onload = function() {
         });
     });
 
+    document.getElementById('dotnet-framework').addEventListener('click', function() {
+        window.open(this.querySelector('a').href, '_blank');
+    });
+
     document.getElementById('feedbackForm').addEventListener('submit', function(e) {
         e.preventDefault();
         
