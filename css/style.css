@@ -293,6 +293,16 @@ ol li::after {
     font-size: 1rem;
 }
 
+#dotnet-framework{
+    cursor: pointer;
+}
+
+#dotnet-framework a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 code {
     background: linear-gradient(135deg, #2d3748, #4a5568);
     color: #e2e8f0;
