@@ -1,0 +1,455 @@
+/* Download Options Section */
+#download-options .download-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#download-options .download-option {
+    background: linear-gradient(135deg, #667eea 0%, #e6f3ff 50%, #667eea 100%);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border: none;
+}
+
+#download-options .download-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+}
+
+#download-options .download-option.primary {
+    border-color: #667eea;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+    color: white;
+}
+
+#download-options .download-option:hover {
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+#download-options .download-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#download-options .download-icon {
+    font-size: 3rem;
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+#download-options .primary .download-icon {
+    color: white;
+}
+
+#download-options .download-option h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #667eea;
+}
+
+#download-options .primary h3 {
+    color: white;
+}
+
+#download-options .download-subtitle {
+    font-size: 1rem;
+    color: #718096;
+    margin: 0;
+}
+
+#download-options .primary .download-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#download-options .download-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#download-options .download-features li i {
+    margin-left: 10px;
+    color: #48bb78;
+    font-size: 1.1rem;
+}
+
+#download-options .primary .download-features li i {
+    color: #68d391;
+}
+
+#download-options .download-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+#download-options .primary .download-info {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#download-options .download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+#download-options .primary-btn {
+    background: white;
+    color: #667eea;
+}
+
+#download-options .primary-btn:hover {
+    background: #f7fafc;
+    transform: translateY(-2px);
+}
+
+#download-options .secondary-btn {
+    background: #667eea;
+    color: white;
+}
+
+#download-options .secondary-btn:hover {
+    background: #5a67d8;
+    transform: translateY(-2px);
+}
+
+#download-options .download-btn i {
+    margin-left: 8px;
+}
+
+/* System Requirements Section */
+#system-requirements .requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#system-requirements .requirement-card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e6f3ff 100%);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+}
+
+#system-requirements .requirement-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5);
+}
+
+#system-requirements .requirement-icon {
+    font-size: 2.5rem;
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+#system-requirements .requirement-card h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#system-requirements .requirement-card p {
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.6;
+}
+
+#system-requirements .download-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#system-requirements .download-link:hover {
+    color: #764ba2;
+}
+
+/* Installation Guide Section */
+#installation-guide .installation-steps {
+    /* max-width: 800px; */
+    margin: 30px auto 0;
+    display: flex;
+    gap: 20px;
+}
+
+#installation-guide .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 25px;
+    background: linear-gradient(135deg, #f8f9ff 0%, #e6f3ff 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+}
+
+#installation-guide .step:hover {
+    transform: translateX(0.5rem);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5);
+}
+
+#installation-guide .step-number {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+    flex-shrink: 0;
+    position: relative;
+    top: calc(50% - 25px);
+
+}
+
+#installation-guide .step-content h3 {
+    color: #667eea;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+#installation-guide .step-content p {
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Version History Section */
+#version-history .version-timeline {
+    /* max-width: 700px; */
+    margin: 30px auto 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#version-history .version-item {
+    position: relative;
+    padding: 25px;
+    margin-bottom: 25px;
+    background: linear-gradient(135deg, #667eea 0%, #e6f3ff 50%, #667eea 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+    width: 30%;
+}
+
+#version-history .version-item:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5);
+}
+
+#version-history .version-item.current {
+    border: 2px solid #667eea;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+    color: white;
+    position: relative;
+}
+
+#version-history .version-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #48bb78;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#version-history .version-info h3 {
+    color: #667eea;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+#version-history .current .version-info h3 {
+    color: white;
+}
+
+#version-history .version-features {
+    margin-top: 15px;
+}
+
+#version-history .download-btn {
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 15px;
+    background: #667eea;
+    color: white;
+    transform: translateX(-50%);
+}
+
+/* Troubleshooting Section */
+#troubleshooting .troubleshooting-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+#troubleshooting .trouble-item {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e6f3ff 100%);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+}
+
+#troubleshooting .trouble-item:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.5);
+}
+
+#troubleshooting .trouble-item .note {
+    color: #e53e3e;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#troubleshooting .trouble-item .trouble-icon {
+    font-size: 2.5rem;
+    color: #ed8936;
+    margin-bottom: 15px;
+}
+
+#troubleshooting .trouble-item h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#troubleshooting .trouble-item p {
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.6;
+}
+
+#troubleshooting .trouble-item a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#troubleshooting .trouble-item a:hover {
+    color: #764ba2;
+}
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+    #system-requirements .requirements-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #system-requirements .requirements-grid .requirement-card:last-child {
+        grid-column: span 2;
+    }
+    
+    #troubleshooting .troubleshooting-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #installation-guide .step {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #installation-guide .step-number {
+        top: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    #installation-guide .installation-steps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #version-history .version-timeline {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        perspective: 800px;
+    }
+
+    #version-history .version-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    #version-history .version-item:hover {
+        transform: translate3d(0, 0, 20px);
+    }
+
+    #version-history .version-item:first-child {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    #version-history .version-timeline {
+        gap: 10px;
+    }
+
+    #version-history .version-item {
+        padding: 25px 15px 125px;
+    }
+}
+
+@media (max-width: 480px) {
+    #version-history .version-timeline {
+        grid-template-columns: 1fr;
+    }
+
+    #version-history .version-item {
+        padding-bottom: 100px;
+    }
+
+    #version-history .version-item:first-child  {
+        grid-column: span 1;
+    }
+
+    #version-history .download-btn {
+        bottom: 5%;
+    }
+
+    #troubleshooting .troubleshooting-grid { 
+        grid-template-columns: 1fr;
+    }
+}

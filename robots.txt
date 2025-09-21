@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanseq-reyad-el-atfal.netlify.app/sitemap.xml

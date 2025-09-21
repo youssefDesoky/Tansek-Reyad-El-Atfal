@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="يوسف أحمد محمد دسوقي | Youssef Ahmed Mohamed Desoky">
+    <meta name="description" content="دليل شامل وخطوات مفصلة لاستخدام برنامج توزيع طلاب رياض الأطفال بكفاءة وسهولة. تعلم كيفية تحميل، تثبيت، وإعداد البرنامج لتوزيع الطلاب على المدارس المختلفة.">
+    <meta name="keywords" content="كيفية استخدام برنامج تنسيق طلاب رياض الأطفال, دليل استخدام برنامج تنسيق طلاب رياض الأطفال, تعليمات برنامج تنسيق طلاب رياض الأطفال, خطوات استخدام برنامج تنسيق طلاب رياض الأطفال, كيفية استخدام برنامج تنسيق طلاب رياض الأطفال, دليل استخدام برنامج تنسيق طلاب رياض الأطفال">
+    <title>طريقة الاستخدام - توزيع طلاب رياض الأطفال</title>
+    
+    <!-- Site Icon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js" defer></script>
+    <script src="js/howToUse.js" defer></script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/howToUse.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Logo">
+            <span>تنسيق طلاب رياض الأطفال</span>
+        </div>
+        
+        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="howToUse.html">طريقة الاستخدام</a></li>
+                <li><a href="download.html">التحميل</a></li>
+                <li><a href="about.html">عن البرنامج</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- How to Use Header Section -->
+    <div id="lander">
+        <div class="content">
+            <h1>كيفية استخدام برنامج توزيع طلاب رياض الأطفال</h1>
+            <p class="subtitle">دليل شامل وخطوات مفصلة لاستخدام البرنامج بكفاءة وسهولة</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-play-circle"></i></span>
+                    <h3>البداية السريعة</h3>
+                    <p>ابدأ في دقائق معدودة باتباع الخطوات البسيطة</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <h3>تعلم سهل</h3>
+                    <p>تعليمات واضحة ومفهومة للجميع</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-images"></i></span>
+                    <h3>شرح مرئي</h3>
+                    <p>صور توضيحية لكل خطوة لفهم أفضل</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="quick-start">
+        <h2><i class="fa-solid fa-rocket"></i> البداية السريعة</h2>
+        <div class="quick-start-grid">
+            <div class="quick-step">
+                <div class="step-icon">1</div>
+                <h3>تحميل البرنامج</h3>
+                <p>حمل البرنامج من صفحة التحميل</p>
+            </div>
+            <div class="quick-step">
+                <div class="step-icon">2</div>
+                <h3>تثبيت البرنامج</h3>
+                <p>شغل ملف التثبيت واتبع التعليمات</p>
+            </div>
+            <div class="quick-step">
+                <div class="step-icon">3</div>
+                <h3>تحضير ملف Excel</h3>
+                <p>أعد ملف Excel ببيانات الطلاب</p>
+            </div>
+            <div class="quick-step">
+                <div class="step-icon">4</div>
+                <h3>ابدأ الاستخدام</h3>
+                <p>شغل البرنامج وابدأ التوزيع</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="detailed-steps">
+        <h2><i class="fa-solid fa-list-ul"></i> الخطوات التفصيلية</h2>
+        
+        <!-- Step 1: Download and Installation -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 1</div>
+                <h3>تحميل وتثبيت البرنامج</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-link"></i> تحميل البرنامج</h4>
+                        <ul>
+                            <li>اذهب إلى صفحة <a href="download.html">التحميل</a></li>
+                            <li>اضغط على زر "تحميل الآن"</li>
+                            <li>احفظ الملف في مكان مناسب على جهازك</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-cog"></i> تثبيت البرنامج</h4>
+                        <ul>
+                            <li>انقر نقراً مزدوجاً على ملف التثبيت (.msi)</li>
+                            <li>اتبع تعليمات التثبيت</li>
+                            <li>اختر مجلد التثبيت (أو اترك الافتراضي)</li>
+                            <li>انتظر حتى اكتمال التثبيت</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة تحميل البرنامج</span>
+                        <div class="images">
+                            <img src="images/how-to-use/install/install1.jpeg" alt="تحميل البرنامج">
+                            <img src="images/how-to-use/install/install2.jpeg" alt="تحديد موقع تثبيت البرنامج">
+                            <img src="images/how-to-use/install/install3.jpeg" alt="تثبيت البرنامج">
+                            <img src="images/how-to-use/install/install4.jpeg" alt="الانتهاء من التثبيت">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2: First Launch -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 2</div>
+                <h3>تشغيل البرنامج لأول مرة</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-play"></i> بدء التشغيل</h4>
+                        <ul>
+                            <li>ابحث عن أيقونة البرنامج على سطح المكتب</li>
+                            <li>انقر نقراً مزدوجاً لتشغيل البرنامج</li>
+                            <li>انتظر حتى تظهر الواجهة الرئيسية</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-desktop"></i> التعرف على الواجهة</h4>
+                        <ul>
+                            <li>قم بالضغط علي زر البدء في تنسيق الطلاب</li>
+                            <li>سيقوم بفتح واجهة تنسيق الطلاب</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-exclamation-triangle"></i> أخطاء شائعة</h4>
+                        <ul>
+                            <li>يمكن النقر علي الزر بأيكونة <i class="fa-solid fa-exclamation"></i> للحصول علي مزيد من المعلومات حول الأخطاء الشائعة</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: الواجهة الرئيسية للبرنامج</span>
+                        <div class="images">
+                            <img src="images/how-to-use/main-menu.jpeg" alt="الواجهة الرئيسية">
+                            <img src="images/how-to-use/home-page/home-page.jpeg" alt="الصفحة الرئيسية">
+                            <img src="images/how-to-use/pos-faults.jpeg" alt="أخطاء موضعية">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3: Prepare Excel File -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 3</div>
+                <h3>تحضير ملف Excel للطلاب</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-file"></i> تنسيق ملف Excel</h4>
+                        <ul>
+                            <li>يجب أن يحتوي الملف على الأعمدة التالية:</li>
+                        </ul>
+                        
+                        <div class="excel-format">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>اسم الطالب</th>
+                                        <th>الرقم القومي</th>
+                                        <th>اسم المدرسة</th>
+                                        <th>اسم المدرسة</th>
+                                        <th>اسم المدرسة</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>أحمد محمد علي</td>
+                                        <td>32011311300017</td>
+                                        <td>مدرسة الأمل</td>
+                                        <td>مدرسة النور</td>
+                                        <td>مدرسة المستقبل</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="content-box">
+                        <h4 class="feature-card-title"><i class="fa-solid fa-plus"></i> أعمدة إضافية يمكن إضافتها</h4>
+                        
+                        <ul class="feature-list">
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-barcode"></i> كود/مسلسل المدرسة</span>
+                                    <p class="feature-list-description">تظهر في النتائج في عمود يسمي كود مدرسة التسكين.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-building-columns"></i> الإدارة التعليمية</span>
+                                    <p class="feature-list-description">للحصول على نتائج التنسيق على مستوى الإدارة.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-phone"></i> هاتف ولي الأمر</span>
+                                    <p class="feature-list-description">لإظهار رقم هاتف ولي الأمر في نتائج المدارس.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-money-check-alt"></i> السداد</span>
+                                    <p class="feature-list-description">الطالب "لم يسدد" لا يدخل في عملية التنسيق.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-ban"></i> ملاحظات</span>
+                                    <p class="feature-list-description">ملاحظات مثل "لم يستوفي" تستبعد الطالب من عملية التنسيق.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-list-content">
+                                    <span><i class="fa-solid fa-table-columns"></i> أعمدة أخرى</span>
+                                    <p class="feature-list-description">أي وجود لأعمدة أخرى لن يؤثر على عملية التنسيق، لكنها لن تظهر في النتائج.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: مثال على ملف Excel للطلاب</span>
+                        <div class="images">
+                            <img src="images/how-to-use/excel-file-structure/file-before-dist.jpeg" alt="تنسيق ملف Excel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 4: Load Student Data -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 4</div>
+                <h3>تحميل بيانات الطلاب</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-folder-open"></i> اختيار ملف Excel</h4>
+                        <ul>
+                            <li>في البرنامج، اضغط على زر "إختيار الملف"</li>
+                            <li>تصفح واختر ملف Excel المُعد مسبقاً</li>
+                            <li>اضغط "فتح" لتحميل البيانات</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-check"></i> التحقق من البيانات</h4>
+                        <ul>
+                            <li>ستظهر قائمة بأسماء الطلاب المحملين</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة تحميل بيانات الطلاب</span>
+                        <div class="images">
+                            <img src="images/how-to-use/home-page/home-page-select-file.jpeg" alt="تحميل بيانات الطلاب">
+                            <img src="images/how-to-use/home-page/home-page-show-students-datain-grid.jpeg" alt="عرض بيانات الطلاب في الجدول">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 5: Configure Schools -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 5</div>
+                <h3>إعداد المدارس والفصول</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-school"></i> تحديد قاعات المدارس</h4>
+                        <ul>
+                            <li>عند إختيار الملف ستظهر المدارس تلقائيا</li>
+                            <li>حدد عدد القاعات/الفصول المتاحة بكل مدرسة</li>
+                            <li>يمكن إضافة فصول ملحقة بشرط وجود عمود <strong>السداد</strong> في ملف Excel؛ وإذا كانت قيمة السداد "لم يسدد" فسيُستبعد الطالب تلقائياً من عملية التوزيع.</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-users"></i> تحديد سعة الفصول</h4>
+                        <ul>
+                            <li>حدد العدد الأقصى للطلاب في كل فصل</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-circle-play"></i> بدء التوزيع</h4>
+                        <ul>
+                            <li>تأكد من جميع البيانات</li>
+                            <li>يتم التوزيع تلقائياً عند ملئ البينات</li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة إعدادات المدارس</span>
+                        <div class="images">
+                            <img src="images/how-to-use/home-page/home-page-show-set-capacities.jpeg" alt="إعدادات المدارس">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 6: Review Results -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 6</div>
+                <h3>مراجعة النتائج</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-chart-bar"></i> عرض النتائج</h4>
+                        <ul>
+                            <li>ستظهر نتائج التوزيع في جدول منظم</li>
+                            <li>يمكن تصفح النتائج حسب المدرسة/الإدارة</li>
+                            <li>عرض إحصائيات شاملة للتوزيع</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-chart-pie"></i> التقارير الإحصائية</h4>
+                        <ul>
+                            <li>إنشاء تقرير شامل بالإحصائيات</li>
+                            <li>عدد الطلاب في كل مدرسة</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة عرض النتائج</span>
+                        <div class="images">
+                            <img src="images/how-to-use/home-page/home-page-show-matching-results.jpeg" alt="عرض النتائج">
+                            <img src="images/how-to-use/stat/stat-page.jpeg" alt="صفحة الإحصائيات — ملخص نتائج التوزيع">
+                            <img src="images/how-to-use/specific-school/specific-school-administration-results.jpeg" alt="نتائج التوزيع حسب الإدارة التعليمية">
+                            <img src="images/how-to-use/specific-school/specific-school-school-results.jpeg" alt="نتائج التوزيع لمدرسة محددة">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 7: Export Results -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 7</div>
+                <h3>تصدير وحفظ النتائج</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-save"></i> حفظ النتائج</h4>
+                        <ul>
+                            <li>اضغط على زر "إنشاء إكسل/إنشاء ملف إكسل"</li>
+                            <li>حدد مكان الحفظ واسم الملف</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة تصدير النتائج</span>
+                        <div class="images">
+                            <img src="images/how-to-use/home-page/home-page-save-dist-results.png" alt="حفظ نتائج الصفحة الرئيسية — حفظ ملف إكسل لنتائج التوزيع">
+                            <img src="images/how-to-use/stat/stat-save-file.jpeg" alt="حفظ ملف الإحصائيات — إنشاء ملف إكسل لتصدير إحصاءات التوزيع">
+                            <img src="images/how-to-use/specific-school/specific-school-save-administration-results.jpeg" alt="حفظ نتائج الإدارة — حفظ ملف إكسل لنتائج التوزيع حسب الإدارة">
+                            <img src="images/how-to-use/specific-school/specific-school-save-school-results.jpeg" alt="حفظ نتائج المدرسة — حفظ ملف إكسل لنتائج مدرسة محددة">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 8: Show Result Excel Files -->
+        <div class="step-container">
+            <div class="step-header">
+                <div class="step-number">الخطوة 8</div>
+                <h3>إستعراض نتائج عملية التنسيق</h3>
+            </div>
+            
+            <div class="step-content">
+                <div class="step-text">
+                    <div class="content-box">
+                        <h4><i class="fa-solid fa-folder"></i> عرض النتائج</h4>
+                        <ul>
+                            <li>يمكنك الآن فتح ومراجعة الملفات في Excel</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-image">
+                    <div class="image-placeholder">
+                        <span>صورة: شاشة عرض ملفات نتائج التوزيع</span>
+                        <div class="images">
+                            <img src="images/how-to-use/excel-file-structure/file-after-dist.jpeg" alt="عرض ملفات نتائج التوزيع — فتح مجلد نتائج التوزيع">
+                            <img src="images/how-to-use/excel-file-structure/stat-results-excel.jpeg" alt="عرض ملفات الإحصائيات — فتح مجلد إحصائيات التوزيع">
+                            <img src="images/how-to-use/excel-file-structure/results-for-entire-administration.jpeg" alt="عرض ملفات نتائج الإدارة — فتح مجلد نتائج توزيع الإدارة التعليمية">
+                            <img src="images/how-to-use/excel-file-structure/school-results.jpeg" alt="عرض ملفات نتائج المدرسة — فتح مجلد نتائج توزيع مدرسة محددة">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- 
+    <section id="tips-and-tricks">
+        <h2><i class="fa-solid fa-lightbulb"></i> نصائح وحيل مفيدة</h2>
+        <div class="tips-grid">
+            <div class="tip-card">
+                <div class="tip-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <h3>نصيحة سريعة</h3>
+                <p>احفظ نسخة احتياطية من ملف Excel قبل بدء التوزيع لتجنب فقدان البيانات</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>توفير الوقت</h3>
+                <p>استخدم ميزة "الحفظ التلقائي" لحفظ تقدمك أثناء العمل</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">
+                    <i class="fa-solid fa-chart-bar"></i>
+                </div>
+                <h3>مراقبة التوازن</h3>
+                <p>تابع الإحصائيات المباشرة أثناء التوزيع للتأكد من التوازن بين المدارس</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">
+                    <i class="fa-solid fa-undo"></i>
+                </div>
+                <h3>التراجع عن التغييرات</h3>
+                <p>استخدم ميزة "التراجع" إذا لم تكن راضياً عن نتيجة التوزيع</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="common-issues">
+        <h2><i class="fa-solid fa-exclamation-triangle"></i> المشاكل الشائعة والحلول</h2>
+        <div class="issues-container">
+            <div class="issue-item">
+                <div class="issue-header">
+                    <i class="fa-solid fa-exclamation-triangle"></i>
+                    <h3>البرنامج لا يقرأ ملف Excel</h3>
+                </div>
+                <div class="issue-content">
+                    <p><strong>الحل:</strong></p>
+                    <ul>
+                        <li>تأكد من أن الملف محفوظ بصيغة .xlsx أو .xls</li>
+                        <li>تحقق من أن الملف غير محمي بكلمة مرور</li>
+                        <li>تأكد من أن البيانات المراد تنسيقها موجودة في أول Sheet من ملف الإكسل</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="issue-item">
+                <div class="issue-header">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>بعض الطلاب لم يتم توزيعهم</h3>
+                </div>
+                <div class="issue-content">
+                    <p><strong>الحل:</strong></p>
+                    <ul>
+                        <li>تحقق من سعة المدارس والفصول</li>
+                        <li>تأكد من صحة أسماء المدارس في رغبات الطلاب</li>
+                        <li>أضف مدارس إضافية أو زد سعة الفصول</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="issue-item">
+                <div class="issue-header">
+                    <i class="fa-solid fa-download"></i>
+                    <h3>مشكلة في حفظ النتائج</h3>
+                </div>
+                <div class="issue-content">
+                    <p><strong>الحل:</strong></p>
+                    <ul>
+                        <li>تأكد من وجود مساحة كافية على القرص الصلب</li>
+                        <li>تحقق من صلاحيات الكتابة في المجلد المختار</li>
+                        <li>أغلق أي ملفات Excel مفتوحة بنفس الاسم</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="left">
+            <ul>
+                <li><a href="#lander">الرئيسية</a></li>
+                <li><a href="#quick-start">البداية السريعة</a></li>
+                <li><a href="#detailed-steps">الخطوات التفصيلية</a></li>
+                <li><a href="#tips-and-tricks">النصائح</a></li>
+                <li><a href="#common-issues">المشاكل الشائعة</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <p>أرسل ملاحظاتك <i class="fa-solid fa-paper-plane"></i></p>
+            <form id="feedbackForm">
+                <div class="box email-header">
+                    <div class="username">
+                        <label for="footer-username">اسم المستخدم</label>
+                        <input type="text" id="footer-username" placeholder="اسم المستخدم" required>
+                    </div>
+                    <div class="email">
+                        <label for="footer-email">بريدك الإلكتروني</label>
+                        <input type="email" id="footer-email" placeholder="example@mail.com" required>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <label for="footer-textarea">ملاحظاتك</label>
+                    <textarea id="footer-textarea" required></textarea>
+                </div>
+
+                <div class="social-and-submit">
+                    <button type="submit">إرسال</button>
+    
+                    <ul class="social">
+                        <li><a href="https://www.linkedin.com/in/youssef-desoky-764245261" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/youssefDesoky/Tansek-Reyad-El-Atfal" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

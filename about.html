@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="يوسف أحمد محمد دسوقي | Youssef Ahmed Mohamed Desoky">
+    <meta name="description" content="معلومات شاملة حول برنامج توزيع طلاب رياض الأطفال، بما في ذلك قصة البرنامج، أهدافه، المميزات الرئيسية، والتقنيات المستخدمة في تطويره.">
+    <meta name="keywords" content="عن برنامج تنسيق طلاب رياض الأطفال, معلومات برنامج تنسيق طلاب رياض الأطفال, أهداف برنامج تنسيق طلاب رياض الأطفال, مميزات برنامج تنسيق طلاب رياض الأطفال, تقنيات برنامج تنسيق طلاب رياض الأطفال">
+    <title>عن البرنامج - توزيع طلاب رياض الأطفال</title>
+    
+    <!-- Site Icon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js" defer></script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Logo">
+            <span>تنسيق طلاب رياض الأطفال</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="howToUse.html">طريقة الاستخدام</a></li>
+                <li><a href="download.html">التحميل</a></li>
+                <li><a href="about.html">عن البرنامج</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Header Section -->
+    <div id="lander">
+        <div class="content">
+            <h1>عن برنامج توزيع طلاب رياض الأطفال</h1>
+            <p class="subtitle">حل متكامل وذكي لإدارة وتوزيع الطلاب بأعلى معايير الكفاءة والعدالة</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <h3>تعليم متطور</h3>
+                    <p>نساهم في تطوير النظام التعليمي من خلال التكنولوجيا</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-heart"></i></span>
+                    <h3>خدمة مجتمعية</h3>
+                    <p>نقدم خدماتنا مجاناً لخدمة المجتمع والنهوض بالتعليم</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon"><i class="fa-solid fa-star"></i></span>
+                    <h3>جودة عالية</h3>
+                    <p>معايير عالية في التطوير والاختبار والأمان</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="program-story">
+        <h2><i class="fa-solid fa-book-open"></i> قصة البرنامج</h2>
+        <p>
+            نشأت فكرة هذا البرنامج من الحاجة الماسة لحل مشكلة توزيع طلاب رياض الأطفال في المدارس بطريقة عادلة وفعالة. 
+            كان التوزيع اليدوي يستغرق وقتاً طويلاً ويحتمل الأخطاء، مما دفعنا لتطوير حل تقني متطور يوفر الوقت والجهد 
+            ويضمن التوزيع العادل وفقاً لرغبات أولياء الأمور وإمكانيات المدارس.
+        </p>
+    </section>
+
+    <section id="program-goals">
+        <h2><i class="fa-solid fa-bullseye"></i> أهداف البرنامج</h2>
+        <ul>
+            <li><i class="fa-solid fa-dice"></i> توزيع عادل ومتوازن للطلاب على المدارس المختلفة</li>
+            <li><i class="fa-solid fa-clock"></i> توفير الوقت والجهد في عملية التوزيع</li>
+            <li><i class="fa-solid fa-user-group"></i> مراعاة رغبات أولياء الأمور قدر الإمكان</li>
+            <li><i class="fa-solid fa-chart-bar"></i> توفير تقارير وإحصائيات مفصلة</li>
+            <li><i class="fa-solid fa-shield-alt"></i> ضمان الشفافية والدقة في التوزيع</li>
+        </ul>
+    </section>
+
+    <section id="features">
+        <h2><i class="fa-solid fa-star"></i> المميزات الرئيسية</h2>
+        <ul>
+            <li><i class="fa-solid fa-robot"></i> خوارزمية ذكية للتوزيع التلقائي</li>
+            <li><i class="fa-solid fa-folder-open"></i> دعم ملفات Excel للاستيراد والتصدير</li>
+            <li><i class="fa-solid fa-tachometer-alt"></i> واجهة سهلة الاستخدام باللغة العربية</li>
+            <!-- <li><i class="fa-solid fa-clipboard-list"></i> إنشاء تقارير شاملة قابلة للطباعة</li> -->
+            <!-- <li><i class="fa-solid fa-cog"></i> إعدادات مرنة لتخصيص عملية التوزيع</li> -->
+            <li><i class="fa-solid fa-rocket"></i> أداء سريع حتى مع أعداد كبيرة من الطلاب</li>
+        </ul>
+    </section>
+
+    <section id="technology">
+        <h2><i class="fa-solid fa-laptop-code"></i> التقنيات المستخدمة</h2>
+        <ul>
+            <li><i class="fa-solid fa-wrench"></i> تطوير باستخدام .NET Framework 4.7.2</li>
+            <li><i class="fa-solid fa-paint-brush"></i> واجهة Windows Forms محسنة</li>
+            <li><i class="fa-solid fa-file-excel"></i> مكتبة EPPlus لمعالجة ملفات Excel</li>
+            <li><i class="fa-solid fa-database"></i> قاعدة بيانات محلية لتخزين عدد قاعات المدارس</li>
+        </ul>
+    </section>
+
+    <!-- <section id="awards">
+        <h2><i class="fa-solid fa-trophy"></i> الإنجازات والتقديرات</h2>
+        <ul>
+            <li><i class="fa-solid fa-medal"></i> استخدام البرنامج في أكثر من 50 إدارة تعليمية</li>
+            <li><i class="fa-solid fa-chart-line"></i> توزيع أكثر من 10,000 طالب بنجاح</li>
+            <li><i class="fa-solid fa-star"></i> تقييم 5 نجوم من المستخدمين</li>
+            <li><i class="fa-solid fa-comment-dots"></i> ملاحظات إيجابية من المديرين والموظفين</li>
+            <li><i class="fa-solid fa-award"></i> تقدير من وزارة التربية والتعليم</li>
+        </ul>
+    </section> -->
+
+    <footer>
+        <div class="left">
+            <ul>
+                <li><a href="#lander">الرئيسية</a></li>
+                <li><a href="#program-story">قصة البرنامج</a></li>
+                <li><a href="#program-goals">الأهداف</a></li>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#technology">التقنيات</a></li>
+                <!-- <li><a href="#awards">الإنجازات</a></li> -->
+            </ul>
+        </div>
+        <div class="right">
+            <p>أرسل ملاحظاتك <i class="fa-solid fa-paper-plane"></i></p>
+            <form id="feedbackForm">
+                <div class="box email-header">
+                    <div class="username">
+                        <label for="footer-username">اسم المستخدم</label>
+                        <input type="text" id="footer-username" placeholder="اسم المستخدم" required>
+                    </div>
+                    <div class="email">
+                        <label for="footer-email">بريدك الإلكتروني</label>
+                        <input type="email" id="footer-email" placeholder="example@mail.com" required>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <label for="footer-textarea">ملاحظاتك</label>
+                    <textarea id="footer-textarea" required></textarea>
+                </div>
+
+                <div class="social-and-submit">
+                    <button type="submit">إرسال</button>
+    
+                    <ul class="social">
+                        <li><a href="https://www.linkedin.com/in/youssef-desoky-764245261" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/youssefDesoky/Tansek-Reyad-El-Atfal" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
